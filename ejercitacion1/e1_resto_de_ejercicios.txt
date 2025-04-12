@@ -1,0 +1,9 @@
+E1
+	1- 	Es un lenguaje de marcado para la elaboración de páginas web. Fue desarrollado 
+		originalmente por Tim Berners-Lee y fue popularizado por el navegador Mosaic en 1993.
+		Es un estándar que sirve de referencia del software que conecta con la
+		elaboración de páginas web en sus diferentes versiones.
+		Los estándares oficiales HTML son el HTML 2.0, el HTML 3.2, el HTML 4.0, el HTML 4.01 y el HTML 5. 
+		El HTLM 5 es la última especificación oficial. 
+		
+	2- 	
