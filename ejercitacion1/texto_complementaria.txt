@@ -1,0 +1,31 @@
+1
+    1.1) * Es gratuito: No necesita ningún tipo de programa especial para empezar a programar en HTML5,
+            incluso puede hacerlo en un bloc de notas, guardar el documento como HTML y podrá  visualizarlo desde cualquier navegador.
+         * Código más ordenado: Debido a la adición de nuevas etiquetas que ayudan a nombrar partes de la estructura
+            básica de toda página web (como <header>, por ejemplo), así como la eliminación de ciertas etiquetas, el código HTML se puede separar fácilmente entre etiquetas y
+            contenido, permitiendo así que el desarrollador pueda trabajar de manera más efectiva y detectar errores de manera más rápida.
+        * Compatibilidad en navegadores: Los navegadores modernos y populares como Chrome, Firefox, Safari y Opera
+            soportan HTML5, es decir, sin importar qué navegador empleen los usuarios el
+            contenido se puede visualizar correctamente. 
+        * Almacenamiento mejorado: Otra nueva adición en HTML5 ha sido el almacenamiento local que se define a sí mismo
+            como “mejor que las cookies” pues la información nunca se transfiere al servidor. De
+            esta manera, la información se mantiene segura. Asimismo, esta nueva característica
+            permite que la información se mantenga almacenada incluso después de haber cerrado
+            el navegador y como funciona desde el lado de cliente, la información se mantiene a
+            salvo incluso si el usuario decide borrar sus cookies.
+        * HMTL5 y el diseño adaptativo: HTML5 es compatible con los navegadores móviles, de modo que cada página realizada
+            en HTML5 que se ve en ordenadores, también se puede adaptar a los dispositivos
+            móviles. Esta especificación para móviles puede hacerla desde el mismo documento
+            HTML o puede emplear una framework especializada para mejorar tu productividad.
+
+    1.2)El lenguaje HTML5 se usa para definir la estructura básica de una página web. Sin embargo, una de sus más grandes adiciones en esta nueva versión es poder añadir
+        audio y video sin necesidad de usar Flash u otro reproductor multimedia.
+        Por medio de las etiquetas <video>y <audio> de HTML5, permite añadir videos o audio sin necesidad de usar Adobe Flash o cualquier otro plugin de tercero. Toda la acción sucede desde el propio
+        navegador, lo que puede ayudar a disminuir al tamaño del archivo final de tu página. Los desarrolladores pueden tener acceso a una API que les permitirá 
+        determinar cómo estas nuevas etiquetas son presentadas a los usuarios. En otras palabras, puedes incluir videos de presentación de algún producto, críticas en video, podcasts, muestras de música, etc.
+
+2   
+    2A) El comité de estandarización W3C deja abierto a cada empresa que desarrolla navegadores los formatos que quieran soportar (así tenemos que algunos soportan mp3, wav, ogg, au)
+
+3
+    3A) En este momento los navegadores permiten mostrar formatos como el mp4, webm y ogv.
