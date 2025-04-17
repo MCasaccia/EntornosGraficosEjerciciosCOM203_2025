@@ -1,9 +1,68 @@
 E1
-	1- 	Es un lenguaje de marcado para la elaboración de páginas web. Fue desarrollado 
-		originalmente por Tim Berners-Lee y fue popularizado por el navegador Mosaic en 1993.
-		Es un estándar que sirve de referencia del software que conecta con la
-		elaboración de páginas web en sus diferentes versiones.
-		Los estándares oficiales HTML son el HTML 2.0, el HTML 3.2, el HTML 4.0, el HTML 4.01 y el HTML 5. 
-		El HTLM 5 es la última especificación oficial. 
+	1- 	
+		1.1) Es un lenguaje de marcado para la elaboración de páginas web. Fue desarrollado 
+			originalmente por Tim Berners-Lee y fue popularizado por el navegador Mosaic en 1993.
+			Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones.
+			Los estándares oficiales HTML son el HTML 2.0, el HTML 3.2, el HTML 4.0, el HTML 4.01 y el HTML 5. 
+			El HTLM 5 es la última especificación oficial. 
+		1.2) La W3C recomienda separar estructura y presentación, considerar la accesibilidad universal a la Web y ayudar a los agentes de usuario con la representación incremental.
+		1.3) Un elemento o atributo desaprobado es aquel que ha quedado anticuado por la presencia de estructuras nuevas, y un elemento o atributo obsoleto es aquél para el cual no hay garantía de soporte por parte de un agente de usuario. 
+			Los elementos obsoletos han dejado de estar definidos en la especificación, pero se enumeran por motivos históricos.
+		1.4) La definicion del tipo de documento (o DTD) define la estructura y los elementos legales de un documento HTML. Existen diferentes tipos de DTD:
+				- DTD estricto, que es usado por páginas web que excluyen atributos y elementos que la W3C espera ir eliminando.
+				- DTD transicional, que es usado por páginas web que incluyen atributos y elementos que la W3C espera ir eliminando.
+				- DTD frameset o conjunto de marcos, que es usado por paginas webs que utilizan marcos.
+		1.5) Los metadatos son especificaciones que brindan información sobre un documento. La especificación de metadatos implica dos pasos: la declaración de una propiedad y de un valor para esta propiedad, ya sea por fuera de un documento o por dentro
+			 , y la referencia a un perfil en el que se definen la propiedad y sus valores legales.	Esto se hace mediante el uso de el atributo profile del elemento HEAD.
 		
-	2- 	
+	2- 
+		2a) Se puede colocar en cualquier seccion, ya que es un comentatrio.
+		2b) Las divisiones suelen ir en el cuerpo del documento. En este caso se le da un id de valor "bloque1". Ésta linea solo va a mostrar texto en el documento.
+		2c) Ésta linea se usa para mostrar una imagen, pero al tener el atributo src vacio, no se va a mostrar nada. 
+			Se ubica en el cuerpo del documento. el atributo alt va a mostrar un texto si hay algun problema con monstrar la imagen. Width y Height van a manipular las dimensiones de la imagen.
+			el atributo longdesc se usa para mostrar la descripcion de la imagen.
+		2d) La estructura meta se ubica en la cabeza del documento y se usa para editar los metadatos de una pagina. la primera linea indica como palabras claves a "casa", "comprta", "venta" y "alquiler".
+			La segunda linea le da una fecha de expiracion al documento.
+		2e) La estructura a se ubica en el cuerpo del documento y se usa para mostrar texto. El atributo href va a abrir una link al interaccionar con el texto. El atributo type va a indicar el tipo de media MIME.
+			El atributo hreflang va a indicar el lenguaje del link enlazado. El atributo charset indica la codificacion utilizada. El atributo rel le dice al navegador como interpretar el enlace, en éste caso le dice
+			que lo interprete como una pagina de ayuda.
+		2f) La estructura table se ubica en el cuerpo del documento y se utiliza para crear uan tabla. La estructura tr indica el comienzo de una fila, td el de una columna y th el encabezado en una fila. El atributo " scope="col" " le indica
+			al documento que esa celda de encabezado aplica a toda la columna, y la " scope="row" " en la fila. El valor &nbsp indica un espacio en blanco no rompible. 
+	
+	3-
+		3a) Las lineas 1 y 2 abren un link a google, la diferencia entre ellas es que la linea 2 lo abre en una nueva ventana gracias a el atributo " target="_blank" ". La linea 3 tambien lleva a google, pero no tiene ningun
+			texto que enlace el link. La linea 4 lleva a la misma pagina. La linea 5 va a llevar a donde esté el elemento con nombre "arriba".
+		
+		3b) La línea 1 muestra la imagen1 y enlaza con un link a google el texto "Click aquí". A diferencia de la linea 1, la 2 enlaza a la imagen con el link. La lineas 3 y 4 enlazan el texto y la imagen pero se visualizan de manera diferente.
+			La linea 3 muestra "imagen1Click aquí", esto ocurre porque la imagen y el texto ocupan una misma etiqueta.
+		
+		3c) Estos 4 codigos van a mostrar una lista de elementos. El codigo 1 va a mostrar una lista no ordenada, mientras que el codigo 2 una ordenada. El codigo 3 va a mostrar una lista ordenada con una separación vertical mas grande
+			debido a que los elementos estan contenidos en listas distintas. Para que el orden tenga sentido utiliza el atributo value para darle un orden personalizado. El codigo 5 va a mostrar una lista ordenada similar
+			al la de el codigo 2, pero en vez de usar la etiqueta <ol> se usa la etiqueta <blocknote>, que se usa para representar una cita en bloque.
+		
+		3d)	Los dos codigos van a mostrar una tabla de 3x2 iguales, pero la diferencia está en la manera en que se hicieron. Mientras que el codigo 1 utiliza la etiqueta th para centrar y poner en negrita las cabezas de las columnas
+			, el codigo 2 utiliza el atributo align y la etiqueta <strong>.
+		
+		3e) Los dos codigos muestran una tabla con un titulo y un grid 3x3 gris vacio, pero la diferencia está en la manera en la que se define el titulo. El codigo 1 utiliza la etiqueta <caption>, la cual se usa para darle un titulo
+			a una tabla. El codigo 2 crea una fila de 1 elemento donde pone el titulo y usa el atributo align para centrarlo.
+		
+		3f) El codigo 1 muestra una tabla con titulo que tiene una celda que ocupa 2 filas. El codigo 2 es similar pero a diferencia del primero, este cuenta con un elemento que ocupa 2 columnas. Esto se debe al uso de los atributos
+			colspan, usado en la segunda fila del codigo 2, y rowspan, usado en la segunda fila del codigo 1.
+
+		3g) Los dos codigos muestran una tabla de 4 elementos, donde uno de ellos ocupa 2 filas. La diferencia se encuentra en que las lineas del segundo son mas finas de lo normal. Esto se debe porque el codigo 2 utiliza los 	
+			atributos cellpadding y cellspacing para eliminar el espaciado de las celdas.
+
+		3h) Los tres codigos muestran un formulario simple de incio de sesion.A diferencia de los otros dos el codigo 1 ya tiene sus campos completados con dos textos de prueba, pero junto al codigo 3 cuandose escribe
+			la contraseña, ésta es escondia por unos puntos, cosa que el codigo 2 no hace. Esto se debe a que el campo de contraseña esta marcado como tipo "text" en vez de tipo "password".
+			Al apretar enviar, cada codigo hace algo distinto. El codigo 1 intenta ejecutar un script de php. El codigo 2 va a abrir la pagina en otra pestaña. Esto ocurre ya que no cuenta con una accion para ejecutar.
+			El codigo 3 va a limpar los campos de usuario y contraseña. Esto se debe a que el boton Enviar es de tipo "reset".
+		
+		3i) Los codigos muestran dos botones que al apretarlos no hacen nada, pero la diferencia está en que el primero cuenta con una imagen. Esto se debe a que cuenta con una etiqueta img.
+	
+		3j) Los codigos muestran dos valores X Y con una casilla para tildear. La diferencia se encuentra en que el codigo 1 no permite tildar las dos casillas. Esto se debe porque en el codigo 1 las dos casillas estan escritas
+			como si fueran la misma opcion, a diferencia del codigo 2 en donde las casillas estan marcadas como dos opciones diferentes.
+		
+		3k) Los dos codigos muestran una lista de opciones multiples que son diferentes. En el codigo 1 solo se muestra la opcion marcada. Si se clickea, se expande y muestra todas las opciones. El codigo 2 muestra toda las opciones
+			dentro de un recuadro donde al seleccionar una opcion ésta se va a resaltar. La estructura de los dos es similar, pero esta diferencia se da ya que el codigo dos cuenta con el atributo multiple.
+
+
