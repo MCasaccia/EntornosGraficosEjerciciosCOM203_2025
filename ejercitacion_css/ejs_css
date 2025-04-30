@@ -1,0 +1,46 @@
+1)  1)  CSS son las siglas de hojas de estilo en cascada. Las hojas de estilo es una tecnología que nos permite controlar la apariencia de una página web.
+        CSS describe como los elementos dispuestos en la página son presentados al usuario.
+    2)  Las hojas de estilo contienen reglas que constan de un selector y una o más declaraciones. 
+        Cada declaración tiene dos partes: una propiedad y un valor. Estas reglas son las que determinan cómo deberá mostrarse la página
+
+    3)  Las tres formas son: directamente a la marca, en el head de la página, o agrupar las reglas de estilo en un archivo independiente con extensión *.css
+
+    4)  Los mas utilizados son los selectores de tipo, de clase y de id.
+        Los selectores de tipo aplican estilos a los elementos que tiene html, como puede ser h1. Los selectores de clase aplican solo aplican estilos a elementos que cuenten con dicha clase, como ".estilopie".
+        Los selectores de id aplican estilos solo a los elementos que cuenten con dicha id, como puede ser "#titulo".
+    
+    5)  Una pseudoclase CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Los mas utilizados para links son :link, :hover , :active y :visited.
+
+    6)  En esta estructura existe un elemento raíz que es el que actúa de contenedor de todos los demás elementos. Se habla de Herencia cuando un elemento elemento hereda 
+        las propiedades del elemento que lo contiene (llamado el elemento padre). Quiere decir que si especificamos la propiedad color: red para <BODY>, todos los elementos 
+        de la página heredarán esta característica y no será necesario especificar nuevamente la propiedad color en cada uno de ellos.
+
+    7)  La cascada significa que el orden de las reglas importa en CSS. Cuando dos reglas tienen la misma especificidad, se aplica la que aparece en último lugar en el CSS.
+
+2)  En la primer estructura del codigo (linea 1 a 5) tenemos un edicion de estilo que solo se va a aplicar a los elementos <p> que tengan la id "normal". 
+    Se transforma el font de los caracteres a arial con el comando "font-family", despues se cambia su tamaño a 11 pixeles con el comando "font-size" y al final se transforma a
+    negrita con el comando "font-weight".
+    La segunda estructura (linea 6 a 10) va a afectar a cualquier elemento que tenga la id "destacado". Se hace solido el borde con el comando "border-style", despues
+    se cambia el color del borde con el comando "border-color" y al final se edita el ancho del borde con el comando "border-width".
+    La ultima estructura (linea 11 a 14) va a afectar a cualquier elemento que tenga la id "distinto". Se le da color al fondo del parrafo con el comando "background-color" y despues se cambia el color de las letras
+    con el comando "color".
+
+3)  En la primer estructura del codigo (linea 1 a 3) tenemos un edicion de estilo que solo va a afectar a las clases "quitar" que esten adentro de una estructura <p>. Lo unico que hace esta estructura es cambiar
+    el color del texto con el comando "color".
+    La segunda estructura (linea 4 a 6) va a afectar a todas las estructuras que tengan la clase "desarrollo". Lo unico que hace esta estructura es cambiar el tamaño de las letras a 8 pixeles con el comando "font-size".
+    La ultima estructura (linea 7 a 9) va a afectar a todas las estructuras que tengan la clase "importante".  Lo unico que hace esta estructura es cambiar el tamaño de las letras a 20 pixeles con el comando "font-size".
+
+4)  La diferencia es que el primer caso muestra los contenidos de <p> de manera normal, mientras que en el segundo caso se muestra en negrita y mas chico, como está indicado en la clase "contenido". Esto pasa porque
+    en el primer caso, aunque <p> tenga la clase "contenido", el atributo style re-escribe las modificaciones hechas por la clase. En el segundo caso como existe un estilo para p, aunque apliquemos la clase en body ésta va 
+    a ser re-escrita por el estilo dado a p. Se podria decir de que no se ven los cambios de contenido en ningun elemento.
+
+5)
+    1) em {color: red;}
+    2) div p[href]{color: black;}
+    3) #ultimo ul{color: yellow;}
+       #ultimo ul a {color: blue;}
+    4) #importante {color: verde;}
+       h1 #importante {color: rojo;}
+    5) h1[title] {color: blue;}
+    6) ol a:link {color: blue; text-decoration: none;}
+       ol a:visited {color: violet; text-decoration: none;}
