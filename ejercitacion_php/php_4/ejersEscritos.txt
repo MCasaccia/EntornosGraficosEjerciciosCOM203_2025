@@ -1,0 +1,67 @@
+1)
+    * Variables:
+        a -> Booleano
+        b -> String
+        c -> String
+        d -> Integer
+        f -> Integer
+        g -> Integer
+
+    * Operadores:
+        * -> multiplicación
+        += -> suma y asignación
+        ++ -> post-incremento
+        ? : -> operador ternario
+        =  -> asignación
+        . -> concatenación
+    
+    * Funciones y sus parametros
+        "function doble($i) {
+        return $i*2;
+        }"
+        
+        Funcion "Doble"
+        Parametro -> $i
+    
+    * Estructuras de control
+       1 -- "if (is_int($d)) {
+            $d += 4;
+            }"
+        Si $d es entero se le suma 4 y se actualiza su valor
+
+       2 -- "f (is_string($a)) {
+            echo "Cadena: $a";
+            }"
+        Si $a es un string entonces se muestra en pantalla   
+    
+    * Lo que se ve en pantalla = "booleanstringstringinteger1xyzxyz184444"
+2)
+    a) Si son equivalentes, ya que todos incrementan a i de 1 a 10.
+    b) Si son equivalentes, ya que todos imprimen de 1 a 10.
+    c) Aunque use dos estructuras de control diferentes, si son equivalentes.
+
+3)
+    a) El codigo se utiliza para crear una tabla de 2 columnas y 5 filas. 
+
+    b) El codigo crea un formulario en el cual se ingresa una edad. Si es mayor de 21 la pagina devuelve "Mayor de edad", si es menor devuelve "Menor de edad".
+
+4)
+    El codigo va a imprimir:
+    "El El clavel blanco"
+    Esto pasa ya que en la primera linea flor y color no estan definidas, entonces se imprimen como vacias. Cuando se incluye 'datos.php' estas variables van a tener el valor dictado por el script
+    entonces cuando se repite el comando de impresion van a imprimir su nuevo valor, "clavel" y "blanco".
+
+ARRAY Y FUNCIONES
+
+1) Los dos son similares. El primero crea un arreglo con los valores ya definidos, mientras que el segundo va agregando los valores de a uno.
+
+2)
+    a) bar1
+    b) 5942
+    c) No tiene niguna funcion para imprimir.
+
+3)
+    a) Has entrado en esta pagina a las 6 horas, con 58 minutos y 53 segundos, del 22/5/2025 
+    b) 5+6=11
+
+
